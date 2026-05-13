@@ -13,6 +13,10 @@ export default [
         format: 'cjs',
       },
       {
+        file: 'dist/index.mjs',
+        format: 'esm',
+      },
+      {
         file: 'dist/index.min.js',
         format: 'iife',
         name: 'version',
